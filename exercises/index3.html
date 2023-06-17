@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: aqua;
+        width: 500px;
+        border: 10px solid;
+        border-color: red;
+
+        margin: 0 auto;
+        box-sizing: border-box;
+        overflow: auto;
+      }
+
+      .para {
+
+        display: box;
+        box-sizing: border-box;
+      }
+
+      a {
+        float: right;
+        font-family: Arial;
+        font-size: 20px;
+        text-decoration: none;
+
+        color: blueviolet;
+        cursor: pointer;
+      }
+
+      button {
+        float: right;
+        color: blueviolet;
+        font-family: Arial;
+        font-size: 20px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+
+        background-color: bisque;
+        color:brown;
+
+
+      }
+
+
+    </style>
+
+    <script>
+
+      function change() {
+
+
+        document.getElementById('Hyperlink').textContent = "Hello";
+        console.log("change was clicked");
+      }
+
+
+
+    </script>
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="container">
+      <p class="para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit facilis,
+        necessitatibus unde ea ex, dolor placeat recusandae nam totam et in nemo
+        nulla similique fuga? Voluptate sunt velit dolor eos?
+      </p>
+      <a  href="#" id="Hyperlink" onClick="change()"> Hyperlink</a>
+      <button type="submit" >Button</button>
+    </div>
+  </body>
+</html>
+
+
